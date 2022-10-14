@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Body from "./components/Body"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
         </Routes>
+        <Body />
         <Footer />
       </Router>
     </div>
