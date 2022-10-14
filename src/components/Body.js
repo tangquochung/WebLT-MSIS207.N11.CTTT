@@ -10,7 +10,6 @@ import Daichi from "../assets/logo-dai-ichi-life.png";
 import Navigo from "../assets/Navigo.jpg";
 import S from "../assets/S.jpg";
 
-
 function Body() {
   return (
     <div>
@@ -35,6 +34,7 @@ function Body() {
               <li>Viec lam goi y</li>
             </div>
             <button>subcribe</button>
+
             <div style={{marginLeft: '30px'}}>
               <li>talent story</li>
               <li>Developer 's Life</li>
