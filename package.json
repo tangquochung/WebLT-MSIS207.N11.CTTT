@@ -2,9 +2,7 @@
   "name": "instagram",
   "version": "0.1.0",
   "main": "App.js",
-  "engines": {
-    "node": "18.x"
-  },
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "gh-pages": "^4.0.0",
